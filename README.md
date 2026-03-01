@@ -1,77 +1,66 @@
 <div align="center">
-  <h1>⚔️ KodeBattle</h1>
-  <p><strong>Real-Time 1v1 Competitive DSA Platform</strong></p>
-  <p>
-    <a href="https://kodebattle.vercel.app/"><strong>Live Demo</strong></a>
-  </p>
 
-  <br/>
+# ⚔️ KodeBattle
 
-  <a href="https://buymeacoffee.com/kodebattle">
-    <img src="https://img.shields.io/badge/Support-Buy%20Me%20A%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" />
-  </a>
+**Real-Time 1v1 Competitive DSA Platform**
+
+[**Live Demo**](https://kodebattle.vercel.app/) 
+
+[![Support](https://img.shields.io/badge/Support-Buy%20Me%20A%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/kodebattle)
+[![MIT License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 </div>
 
 ---
-## OVERVIEW
-**KodeBattle** is a real-time competitive coding platform designed to strengthen problem-solving skills in Data Structures and Algorithms through fast-paced 1v1 battles.
-Unlike traditional practice platforms, KodeBattle emphasizes **time pressure, logical clarity, and competitive performance**. Users are matched instantly, given structured algorithmic challenges, and evaluated based on accuracy and efficiency. The platform promotes consistency, speed, and structured thinking — core skills required in technical interviews and competitive programming.
+
+## What is KodeBattle?
+
+KodeBattle is a real-time 1v1 platform where you compete head-to-head on DSA questions under strict time pressure. No long contests, no passive solo practice — just you, an opponent at your level, and 5 minutes on the clock.
+
+It's built for developers and students who want to train the skill that actually matters in interviews: **thinking clearly under pressure**.
 
 ---
 
-## ✨ Features
-- ⚡ **Real-Time 1v1 Battles**  
-  Compete in live, time-bound coding duels powered by WebSockets.
-- 📈 **KOD Rating System**  
-  Performance-based ranking system that dynamically updates after each battle and tracks long-term progress.
-- 🤝 **Private Battle Rooms**  
-  Create invite-only matches and challenge friends directly.
-- 🏆 **Achievements & Milestones**  
-  Unlock achievements based on rating growth, win streaks, and performance metrics.
-- 🔒 **Secure Authentication**  
-  Firebase-based authentication with Google and email login support.
-- 📱 **Responsive UI**  
-  Clean and intuitive interface optimized for both desktop and mobile.
+## Features
+
+| | |
+|---|---|
+| ⚔️ **Real-Time 1v1 Battles** | Live duels powered by WebSockets, matched by KOD Rating |
+| 📈 **KOD Rating System** | Platform-native ranking that updates instantly after every match |
+| 🤝 **Private Rooms** | Create invite-only matches and challenge friends directly |
+| 🏆 **Achievements** | Unlock milestones based on win streaks, rating growth, and performance |
+| 🔒 **Authentication** | Google and email login via Firebase Auth |
 
 ---
 
-## 🆚 How We Compare
-| Feature | KodeBattle ⚔️ | LeetCode | Codeforces |
-| :--- | :--- | :--- | :--- |
-| **Primary Focus** | Speed & Agility | Interview Prep | Academic Mastery |
-| **Match Format** | Instant 1v1 Battles | Solo Practice | Scheduled Contests |
-| **Time Constraint** | Rapid (< 5 Minutes) | Marathon (1.5+ Hours) | Marathon (2+ Hours) |
-| **Rating System** | Dynamic ELO (Every Match) | Contest ELO (Weekly) | Contest ELO (Periodic) |
-| **Social Features** | Private Lobbies, Friend Duels | Discussion Forums | Blogs, Groups |
-| **Gamification** | Exportable Achievements | Badges / Coins | Ranks / Titles |
-  
-### 💡 Why KodeBattle is the Ultimate Training Ground
-- **Performance Under Pressure:** Traditional platforms give you unlimited time. KodeBattle forces you to think, type, and debug rapidly while an opponent is racing against you—simulating the stress of a real technical interview.
-- **Micro-Learning Format:** Instead of dedicating 2 hours to a contest, you can hop into KodeBattle for a -minute match. It builds consistency by allowing you to practice in bite-sized chunks.
-- **Action-Oriented Practice:** No waiting for weekend contests. Queue up and engage in a ranked battle instantly, 24/7.
-- **Social & Competitive:** Learning DSA can be isolating. By turning it into a multiplayer 1v1 game, KodeBattle makes practicing algorithms as addictive and social as playing an online video game.
+## How KodeBattle Compares
 
+| | KodeBattle ⚔️ | LeetCode | Codeforces |
+|---|---|---|---|
+| **Format** | Instant 1v1 Battles | Solo Practice | Scheduled Contests |
+| **Time per Session** | ~5 Minutes | 1.5+ Hours | 2+ Hours |
+| **Rating Updates** | After Every Match | After 4-5 Days | After 24-48 hrs |
+| **Barrier to Entry** | None (no IDE setup) | Moderate | High |
+| **Gamification** | Ratings, Streaks, Achievements | Badges, Coins | Ranks |
 
-## 🛠️ Tech Stack
-### Frontend
-- **React.js** (Vite)
-- **Tailwind CSS**
-- **Framer Motion**
-- **Socket.io Client**
-- **Recharts**
-### Backend
-- **Node.js**
-- **Express.js**
-- **Socket.io**
-- **Firebase**
+---
 
-  
-## 📜 License
-Distributed under the MIT License. See `LICENSE` for more information.
+## Tech Stack
+
+**Frontend** — React.js (Vite), Tailwind CSS, Framer Motion, Recharts, Socket.io Client
+
+**Backend** — Node.js, Express.js, Socket.io
+
+**Infrastructure** — Firebase (Auth + Firestore), Vercel (Frontend), Render (Backend)
+
+---
+
+## License
+
+Distributed under the MIT License. See [`LICENSE`](LICENSE) for details.
 
 ---
 
 <div align="center">
-  <i>Built with precision by <a href="https://www.linkedin.com/in/ashishpatil2005/">Ashish Patil</a></i>
+  <sub>Built by <a href="https://www.linkedin.com/in/ashishpatil2005/">Ashish Patil</a></sub>
 </div>
