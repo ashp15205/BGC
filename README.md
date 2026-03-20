@@ -21,34 +21,41 @@ It's built for developers and students who want to train the skill that actually
 
 ---
 
-## Features
+## 🎮 Game Modes
 
-| | |
+| Mode | Description |
 |---|---|
-| ⚔️ **Real-Time 1v1 Battles** | Live matchmaking powered by WebSockets with real-time opponent progress tracking. |
-| 📈 **KOD Rating System** | 8-tier competitive ranking (Unranked → Legendary Grandmaster) that updates instantly after every match. |
-| 🛡️ **Anti-Cheat Integrity** | Mandatory fullscreen enforcement and violation tracking (3 strikes = forfeit) ensures fair play. |
-| 🤝 **Social & Friends** | Add friends, track their online status, and challenge them directly to private battle rooms. |
-| 🏆 **Achievements & Streaks** | Unlock 12+ unique achievements and maintain win/login streaks to climb the leaderboard. |
-| 📊 **Deep Analytics** | Activity heatmaps, Codeforces-style rating graphs, and detailed battle history on public profiles. |
-| 🔒 **Authentication** | Secure one-click Google and email login via Firebase Auth. |
+| ⚔️ **Ranked 1v1** | Instant matchmaking with real players. Climb the global KOD leaderboard and earn your tier (Bronze to Legendary Grandmaster). |
+| 🤖 **Playground Arena** | Challenge 8+ AI bots with unique personalities (Rookie to Dijkstra). Perfect for practice with an independent Bot Rating system. |
+| 🤝 **Private Duels** | Create invite-only rooms with custom codes to challenge friends or colleagues directly. |
 
 ---
 
-## How KodeBattle Compares
+## ✨ Features
 
-| | KodeBattle ⚔️ | LeetCode | Codeforces |
-|---|---|---|---|
+- 🎯 **500+ Original Questions** — 10+ question types including MCQs, Bug Finding, Complexity Analysis, Output Prediction, and Sequence Ordering.
+- 🛡️ **Anti-Cheat Integrity** — Mandatory fullscreen enforcement and violation tracking (3 strikes = automatic forfeit) to ensure competitive fairness.
+- 🏆 **Dual Achievement System** — Unlock 24+ unique milestones across both Ranked and Playground modes to showcase your consistency.
+- 📉 **Real-Time Analytics** — Codeforces-style rating graphs, GitHub-style activity heatmaps, and detailed match histories.
+- 👥 **Social Ecosystem** — Add friends, track their online status, and send instant 1v1 challenges with real-time notifications.
+- 🔒 **Secure Authentication** — Fast one-click Google and email login powered by Firebase Auth.
+
+---
+
+## 🆚 How We Compare
+
+| Feature | KodeBattle ⚔️ | LeetCode | Codeforces |
+| :--- | :--- | :--- | :--- |
 | **Match Format** | Instant 1v1 Battles | Solo Practice | Scheduled Contests |
-| **Questions** | DSA Quiz Patterns | Full Code Implementation | Complex Problem Solving |
-| **Time per Session** | ~5 Minutes | 60–90+ Minutes | 2+ Hours |
-| **Rating Updates** | Instant (After Every Match) | Weekly | After 24–48 Hours |
-| **Anti-Cheat** | Fullscreen Enforcement | None | Plagiarism Detection |
-| **Gamification** | Ratings, Streaks, Achievements | Badges, Coins | Ranks |
+| **Questions** | DSA Pattern Quizzes | Full Code Implementation | Complex Problem Solving |
+| **Time per Match** | ~5 Minutes | 60–90+ Minutes | 2+ Hours |
+| **Instant Practice** | ✅ (AI Bots + Ranked) | ❌ | ❌ |
+| **Anti-Cheat** | ✅ (Fullscreen Env) | ❌ | ❌ (Plagiarism only) |
+| **Rating System** | Instant ELO (KOD) | Weekly Contest ELO | Periodic Contest ELO |
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 **Frontend** — React 19 (Vite), Tailwind CSS 4, Framer Motion, Recharts, Socket.io Client
 
@@ -58,7 +65,7 @@ It's built for developers and students who want to train the skill that actually
 
 ---
 
-## License
+## 📜 License
 
 Distributed under the MIT License. See [`LICENSE`](LICENSE) for details.
 
@@ -67,4 +74,5 @@ Distributed under the MIT License. See [`LICENSE`](LICENSE) for details.
 <div align="center">
   <sub>Built with precision by <a href="https://www.linkedin.com/in/ashishpatil2005/">Ashish Patil</a></sub>
 </div>
+
 
