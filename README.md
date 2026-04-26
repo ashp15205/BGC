@@ -67,7 +67,7 @@ It's built for developers and students who want to train the skill that actually
 
 ## 📜 License
 
-Distributed under the MIT License. See [`LICENSE`](LICENSE) for details.
+Distributed under the MIT License. See [`LICENSE`](LICENSE) for details
 
 ---
 
