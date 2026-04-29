@@ -6,7 +6,7 @@
 
 [**Live Demo**](https://kodebattle.vercel.app/) 
 
-[![Support](https://img.shields.io/badge/Support-Buy%20Me%20A%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/kodebattle)
+[![Support](https://img.shields.io/badge/Support-Buy%20Me%20A%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/ashishp05)
 [![MIT License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 </div>
